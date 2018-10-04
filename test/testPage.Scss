@@ -1,0 +1,78 @@
+$font-stack:  Helvetica sans-serif;
+  $primary-color: #333;
+
+head{
+  	title: MyPage;
+  	charset: utf-8;
+  	keywords: "web tech browser concept Json Pages fragmented web tech";
+  	author: "Travis Deane Ashworth";
+  	links{ url:"http://travis.net16.net/test.json";}
+}
+
+
+.Button{ padding:10; display:inline-block; margin:2; height:20;
+    font:15px Georgia steelblue center;
+    vertical-align:middle; line-height:1.4;
+  	hover{color: 0.996094 0.5 0.5;}
+  	border: steelblue solid medium; border-radius:3;
+  	}
+.MenuButton{ display:inline-block; width:50; padding: 8px 16px 8px 16px; float:right;
+    line-height:1.4; vertical-align:middle;
+  	font: 15 Georgia black center;
+      	hover{ border: steelblue solid 0 0 0 3;} }
+  	}
+.par{ display:inline-block; line-height:1.4; vertical-align:middle;
+  font:white 32 center Georgia solid; }
+
+
+
+div{color:white; padding:10;
+  	div{display:inline-block; width: 108;
+    	font: purple 18 oblique;
+    	text:"Presenting Naquadah:";
+    }
+  	div{display:inline-block; width: 200px; padding: 8 0 0 0; vertical-align:middle;
+  			border: 2 0 0 0 purple solid;  font: black 14px center;
+  			text:"As a test of julia in General Purpose Computing";
+      }
+  	div{ style:MenuButton; text:"INFO";  }
+  	div{ style:MenuButton; text:"TESTS"; }
+  	div{ style:MenuButton; text:"IDEAS"; }
+  	div{ style:MenuButton; text:"ABOUT"; }
+  	div{ style:MenuButton; text:"HOME";  }
+  	}
+
+
+
+div{ color:steelblue; padding:5; data: 107 133 221 66 102 213;
+  	hover{color: 0.996094 0.5 0.5;}
+  	div{display:inline-block; width:240; height:90; margin: 10; color:lightgrey;
+  			border: thin longdashed forestgreen 7;
+  			circle{radius:25; color: 0.83 0.39 0.37; opacity:0.7; position:absolute; bottom:9; left:9;
+  					border: thick solid red; }
+  			circle{radius:25; color: 0.66 0.48 0.75; opacity:0.7; position:absolute; bottom:9; left:36;
+  					border: thick solid purple; }
+  			circle{radius:25; color: 0.41 0.66 0.35; opacity:0.6; position:absolute; bottom:31; left:22;
+  					border: thick solid green; }
+  			    div{display:inline-block; width:140; height:80; margin: 95 6 0 0;
+  					    div{display:inline-block; text:"julia"; line-height:1.4;
+  							font: black 64 center Georgia;
+  							}
+  						circle{radius:5; color: 0.41 0.51 0.87; position:absolute; top:15; left:10; }
+  						circle{radius:5; color: 0.84 0.39 0.36; position:absolute; top:15; left:84; }
+  						circle{radius:5; color: 0.66 0.48 0.75; position:absolute; top:15; left:97; }
+  						circle{radius:5; color: 0.41 0.67 0.34; position:absolute; top:4;  left:91; }
+  				}
+      }
+
+  		p{ style:par;
+  			  text:"Presenting Naquadah: As a test of julia in General Purpose Computing";}
+}
+
+div{ color: 0.25 0.25 0.27; padding: 10; margin: 0 0 0 20;
+  	h1{ font: center white; text:"Why reinvent the wheel?"; }
+  	p{ display:block; line-height:1.4;
+  			font:lightgrey 20px center normal Georgia;
+  			text:"Although it's often best to just use the tools that others have worked so hard to build and perfect there are actually times when it's fitting to start again... but when? Well one obvious answer is when your specific needs are different from the norm. However there are other good reasons. For instance maybe you really want to get a good understanding of the motives behind a standard design. Trying out a few changes to see why they succeed or fail can help you to get a feel of just that. In the case of this browser design there's a different reason. As a technology develops new features get added and removed. Some technologies are repurposed. In the end it's not uncommon to get a patchwork of parts which generally funtion as one but each part has its overhead. The overhead is often tolerated because refining consolidation and re-education is a huge task. Browsers use and comunicate with so many separate languages (ex: HTML XML SVG css JS JSON...) and tech that learning them all and integrating them seemlessly into one app or site is getting quite complex. There's also a lot of overlap in all of that. What if we could step back and consolidate all the benefits of the various tools and languages we just might simplify it all and eliminate needless complexity and overhead? This experement is to test that idea."
+  	}
+}
